@@ -4,6 +4,9 @@ import viteConfig from './vite.config'
 
 export default mergeConfig(viteConfig, defineConfig({
   test: {
-    exclude: ['packages/template/*'],
+    exclude: ['**/node_modules/**'],
+    globals: true,
+    environment: "jdom",
+    setupFiles: './vitest-setup.ts'
   },
 }))
