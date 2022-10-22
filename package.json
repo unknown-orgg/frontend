@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:unknown:dev": "pnpm --filter unknown run dev"
+    "start:unknow:dev": "pnpm --filter unknow run dev",
+    "test:unknow": "pnpm --filter unknow run test"
   },
   "keywords": [],
   "author": "",
