@@ -3,33 +3,39 @@
 /* ---------------------------------------- */
 
 
-$base-size: 1rem;
+$base-size-h: 1rem;
+$base-size-w: 2rem;
 :root {
-  --base-size: $base-size
+  --base-size-h: $base-size-h,
+  --base-size-w: $base-size-w
 }
 
 /* button and input elements */
 .button-xsmall,
 .input-xsmall {
-  height: $base-size;
+  min-height: $base-size-h;
+  min-width: $base-size-w;
   padding: 2px 8px;
 }
 
 .button-small,
 .input-small {
-  height: $base-size*2;
+  min-height: $base-size-h*2;
+  min-width: $base-size-w*2;
   padding: 4px 12px;
 }
 
 .button-medium,
 .input-medium {
-  height: $base-size*3;
+  min-height: $base-size-h*3;
+  min-width: $base-size-w*3;
   padding: 8px 16px;
 }
 
 .button-large,
 .input-large {
-  height: $base-size*4;
+  min-height: $base-size-h*4;
+  min-width: $base-size-w*4;
   padding: 12px 24px;
 }
 
@@ -41,10 +47,10 @@ $base-size: 1rem;
   font-size: var(--fs-button-round, --fs-300);
 }
 
-.button-round-xsmall { padding: $base-size; }
-.button-round-small { padding: $base-size*2; }
-.button-round-medium { padding: $base-size*3; }
-.button-round-large { padding: $base-size*4; }
+.button-round-xsmall { padding: $base-size-h; }
+.button-round-small { padding: $base-size-h*2; }
+.button-round-medium { padding: $base-size-h*3; }
+.button-round-large { padding: $base-size-h*4; }
 
 /* border sizes */
 
