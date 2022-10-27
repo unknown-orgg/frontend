@@ -1,10 +1,10 @@
 <template>
   <l-default>
-    <LabsList />
+    <p-labs-list />
   </l-default>
 </template>
 <script setup lang="ts">
-import LabsList from "@/pages/Labs/LabsList/LabsList.vue";
+import PLabsList from "@/pages/Labs/LabsList/PLabsList.vue";
 import LDefault from "@/layouts/Default/LDefault.vue";
 
 </script>
