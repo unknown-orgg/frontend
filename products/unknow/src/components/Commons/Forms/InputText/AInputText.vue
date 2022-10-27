@@ -1,0 +1,8 @@
+<template>
+  <input 
+    class="a-input border-accent"
+    type="text"
+  />
+</template>
+<script lang="ts" setup></script>
+<style lang="scss" scoped></style>

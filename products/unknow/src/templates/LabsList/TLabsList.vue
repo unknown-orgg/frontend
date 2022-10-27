@@ -4,4 +4,11 @@
   </div>
 </template>
 <script lang="ts" setup></script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.t-labs-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+</style>

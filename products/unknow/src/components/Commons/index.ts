@@ -1,5 +1,3 @@
-import AButton from "./Button/AButton.vue";
-
-export {
-  AButton
-}
+export * from "./Forms";
+export * from "./Lists";
+export * from "./Panels";
