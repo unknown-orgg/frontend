@@ -21,7 +21,10 @@ figure,
 picture {
   margin: 0;
 }
-
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
 /* set up the body */
 body {
   line-height: 1.4;
