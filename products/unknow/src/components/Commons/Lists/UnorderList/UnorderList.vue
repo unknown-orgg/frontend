@@ -1,6 +1,5 @@
 <template>
   <ul
-    v-for="content in contents"
     role="unorderlist"
     class="UnorderList flex"
     :class="{
@@ -9,6 +8,7 @@
     }"
   >
     <list-item
+      v-for="content in contents"
       :content="content"
     />
   </ul>
