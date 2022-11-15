@@ -8,5 +8,6 @@
 .l-default {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 1rem 0;
 }
 </style>

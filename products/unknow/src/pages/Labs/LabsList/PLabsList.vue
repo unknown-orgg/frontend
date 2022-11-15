@@ -1,22 +1,6 @@
 <template>
   <t-labs-list>
     <template #laboratories>
-      <a-button 
-        label="teste"
-        size="xsmall"
-      />
-      <a-button 
-        label="teste"
-        size="small"
-      />
-      <a-button 
-        label="teste"
-        size="medium"
-      />
-      <a-button 
-        label="teste"
-        size="large"
-      />
       <lab-list
         :labs="labs"
       />
@@ -37,7 +21,65 @@ const labs = ref<iLab[]>([
       email: "raul@email.com",
       phone: "(99) 678989989"
     }
+  },
+  {
+    name: "raul cortez",
+    address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
+  },
+  {
+    name: "raul cortez",
+    address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
+  },
+  {
+    name: "raul cortez",
+    address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
+  },
+  {
+    name: "raul cortez",
+    address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
+  },
+  {
+    name: "raul cortez",
+    address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
+  },
+  {
+    name: "raul cortez",
+    address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
+  },
+  {
+    name: "raul cortez",
+    address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
   }
 ])
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

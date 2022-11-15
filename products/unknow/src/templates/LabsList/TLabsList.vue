@@ -1,14 +1,19 @@
 <template>
   <div class="t-labs-list">
-    <slot name="laboratories"></slot>
+    <div class="t-labs-list__labs">
+      <slot name="laboratories"></slot>
+    </div>
   </div>
 </template>
 <script lang="ts" setup></script>
 <style lang="scss" scoped>
 .t-labs-list {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  & .t-labs-list__labs {
+    width: 100%;
+  }
 }
 </style>
