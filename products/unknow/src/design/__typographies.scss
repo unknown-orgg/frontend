@@ -1,6 +1,7 @@
 /* ---------- */
 /* Typography */
 /* ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
 :root {
   --fs-900: 9.375rem;
@@ -16,13 +17,12 @@
   --ff-serif: "Bellefair", serif;
   --ff-sans: "Berlow condensed", sans-serif;
   --ff-sans-normal: "Berlow", sans-serif;
+  --ff-sans-oxygen: "Oxygen", sans-serif;
 }
 
-.body {
-  font-family: var(--ff-sans-normal);
-  font-size: var(--fs-400);
-  color: hsl(var(--color-white));
-  background-color: hsl(var(--color-dark));
+body {
+  font-family: var(--ff-sans-oxygen);
+  font-size: var(--fs-200);
 }
 
 .ff-serif { font-family: var(--ff-serif); }
@@ -67,7 +67,9 @@ p {
 .text-small { 
   font-size: var(--fs-300);
 }
-
+.text-strong {
+  font-weight: 600;
+}
 .numbered-title {
   font-family: var(--ff-sans-cond);
   font-size: var(--fs-500);

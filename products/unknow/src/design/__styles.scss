@@ -17,8 +17,10 @@ $box-shadow-inset: inset 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0
 .no-border {
   border: none
 }
-
-
+.no-border-radius-left {
+  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 @for $r from 0 to 21 {
   .rounded-#{$r} {
     border-radius: calc($base-radius*$r) !important;

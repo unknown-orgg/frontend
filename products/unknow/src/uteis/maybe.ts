@@ -9,7 +9,9 @@ export class Maybe<T> {
   static just<T>(value: T): Maybe<T> {
     return new Maybe<T>(value);
   }
-   /** Try get a property of the `object` with given `key`. */
+  static justIf<T>(condition: boolean, value: T): Maybe<T> {
+    return condition ? Maybe.just(value) : Maybe.nothing<T>();
+  }
   static prop<T>(object: { [k: string]: T }, key: string): Maybe<T> {
     return new Maybe(object[key]);
   }

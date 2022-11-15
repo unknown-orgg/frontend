@@ -7,6 +7,9 @@
   display: flex;
   gap: var(--gap, 1rem);
 }
+.flex-stretch {
+  align-items: stretch;
+}
 .flex-row {
   flex-direction: row;
 }

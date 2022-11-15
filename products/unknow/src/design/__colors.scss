@@ -6,6 +6,7 @@ $cl-light: 231 77% 90%;
 $cl-dark: 230 35% 7%;
 $cl-muted: 208, 7%, 46%; 
 $cl-white: 0 0% 100%;
+$cl-gray: 0, 0%, 50%;
 
 $cl-success: 134, 61%, 41%;
 $cl-warning: 45, 100%, 51%;
@@ -25,7 +26,8 @@ $cl-secondary: 208, 7%, 46%;
   --color-info: 188, 78%, 41%;
   --color-primary: 211, 100%, 50%;
   --color-secondary: 208, 7%, 46%;
-  --color-muted: 208, 7%, 46%
+  --color-muted: 208, 7%, 46%;
+  --color-gray: 0deg 3% 28% / 10%;
 }
 
 /* background colors */
@@ -63,13 +65,13 @@ $cl-secondary: 208, 7%, 46%;
 .border-accent,
 .border-white,
 .border-muted,
-.border-muted,
 .border-success,
 .border-warning,
 .border-danger,
 .border-info,
 .border-danger,
 .border-primary,
+.border-gray,
 .border-secondary {
   border: var(--border-width, 1px) var(--border-style, solid)
 }
@@ -86,3 +88,11 @@ $cl-secondary: 208, 7%, 46%;
 
 .border-primary { border-color: hsl( var(--color-primary) ); }
 .border-secondary { border-color: hsl( var(--color-primary) ); }
+
+.border-gray { border-color: hsl( var(--color-gray) ); }
+
+.button-success {
+  background-color: hsl(var(--color-success));
+  border: 1px solid hsl( var(--color-success) );
+  color:hsl( var(--color-success ) );
+}
