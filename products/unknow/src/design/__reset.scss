@@ -21,6 +21,9 @@ figure,
 picture {
   margin: 0;
 }
+h1 {
+  line-height: 1;
+}
 ul {
   list-style: none;
   padding-inline-start: 0;
@@ -28,7 +31,7 @@ ul {
 /* set up the body */
 body {
   line-height: 1.4;
-  min-height: 100vh;
+  background-color: hsl(var(--color-muted), 8%);
 }
 /* make images easier to work with */
 img,
