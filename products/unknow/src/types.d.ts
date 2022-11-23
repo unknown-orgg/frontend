@@ -1,12 +1,18 @@
 type Label = string | number;
-type Content = string | number;
+interface MenuItem {
+  id: string | number;
+  url?: string;
+  name: string;
+  child?: MenuItem[];
+  icon?: string;
+};
 type Email = string;
 type Phone = string;
 type LabName = string;
 type Address = string;
 type Direction = 'horizontal' | 'vertical';
 type Size = "xsmall" | "small" | "medium" | "large" | "xlarge";
-type Color = "success" | "warning" | "danger" | "primary";
+type Color = "success" | "warning" | "danger" | "primary" | "secondary";
 
 interface iContacts {
   email: Email;

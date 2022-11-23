@@ -1,6 +1,5 @@
-type MixedType = string | string[] | number | number[] | boolean | Date;
-type ArityOneFn = (arg: any) => any;
-type ArityOneFnPromise = (arg: any) => Promise<any>
+type ArityOneFn<T = any> = (arg: T) => T;
+type ArityOneFnPromise<T = any> = (arg: T) => Promise<T>
 export class Compose {
   constructor() {
   }

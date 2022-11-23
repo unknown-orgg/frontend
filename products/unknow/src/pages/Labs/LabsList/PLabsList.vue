@@ -23,7 +23,7 @@ const labs = ref<iLab[]>([
     }
   },
   {
-    name: "raul cortez",
+    name: "Laboratório Unimed",
     address: "vp 18 quadra 39 número 10",
     contacts: {
       email: "raul@email.com",
@@ -31,7 +31,7 @@ const labs = ref<iLab[]>([
     }
   },
   {
-    name: "raul cortez",
+    name: "Hemoloba",
     address: "vp 18 quadra 39 número 10",
     contacts: {
       email: "raul@email.com",
@@ -39,7 +39,7 @@ const labs = ref<iLab[]>([
     }
   },
   {
-    name: "raul cortez",
+    name: "Microlab",
     address: "vp 18 quadra 39 número 10",
     contacts: {
       email: "raul@email.com",
@@ -47,7 +47,7 @@ const labs = ref<iLab[]>([
     }
   },
   {
-    name: "raul cortez",
+    name: "laboratório cedro",
     address: "vp 18 quadra 39 número 10",
     contacts: {
       email: "raul@email.com",
@@ -55,7 +55,7 @@ const labs = ref<iLab[]>([
     }
   },
   {
-    name: "raul cortez",
+    name: "Domicilab",
     address: "vp 18 quadra 39 número 10",
     contacts: {
       email: "raul@email.com",
@@ -63,7 +63,7 @@ const labs = ref<iLab[]>([
     }
   },
   {
-    name: "raul cortez",
+    name: "Labac",
     address: "vp 18 quadra 39 número 10",
     contacts: {
       email: "raul@email.com",
@@ -71,8 +71,16 @@ const labs = ref<iLab[]>([
     }
   },
   {
-    name: "raul cortez",
+    name: "labortório canaã",
     address: "vp 18 quadra 39 número 10",
+    contacts: {
+      email: "raul@email.com",
+      phone: "(99) 678989989"
+    }
+  },
+  {
+    name: "labchecap",
+    address: "Av. Tancredo Neves, 3133 Salvador Shopping, PISO G2 (Próximo ao SAC), Caminho das Árvores. 41.820-021 Salvador - BA",
     contacts: {
       email: "raul@email.com",
       phone: "(99) 678989989"

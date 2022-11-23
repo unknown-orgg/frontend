@@ -21,14 +21,13 @@ defineProps<iPropsLabList>();
 </script>
 <style lang="scss" scoped>
 .LabList {
-  width: 100%;
+  
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 1rem;
   row-gap: 1rem;
   & .LabList__Item {
-    width: 100%;
-    
+    width: 100%
   }
 }
 </style>

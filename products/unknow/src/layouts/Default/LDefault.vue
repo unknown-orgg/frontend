@@ -24,5 +24,7 @@
 }
 .l-default__main {
   width: 100%;
+  overflow: auto;
+  max-height: 85vh;
 }
 </style>

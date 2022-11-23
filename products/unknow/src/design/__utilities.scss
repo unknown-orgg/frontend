@@ -25,6 +25,9 @@
 .flex-align-center {
   align-items: center;
 }
+.flex-align-self-end {
+  align-self: flex-end;
+}
 .flex-justify-center {
   justify-content: center;
 }
@@ -48,7 +51,7 @@
 .container {
   padding-inline: 2em;
   margin-inline: auto;
-  max-width: 80rem;
+  padding-bottom: 1rem
 }
 
 .sr-only {
@@ -77,3 +80,4 @@
 .skip-to-content:focus {
   transform: translateY(0);
 }
+ 

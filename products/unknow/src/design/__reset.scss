@@ -28,10 +28,14 @@ ul {
   list-style: none;
   padding-inline-start: 0;
 }
+a {
+  text-decoration: none;
+}
 /* set up the body */
 body {
   line-height: 1.4;
   background-color: hsl(var(--color-muted), 8%);
+  overflow: hidden;
 }
 /* make images easier to work with */
 img,

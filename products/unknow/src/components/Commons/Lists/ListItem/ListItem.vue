@@ -3,12 +3,11 @@
     class="ListItem"
     role="item"
   >
-    {{ content }}
+    <slot></slot>
   </li>
 </template>
 <script lang="ts" setup>
-interface iPropsListItem {
-  content: Content;
-}
-defineProps<iPropsListItem>();
+;
 </script>
+<style lang="scss" scoped>
+</style>

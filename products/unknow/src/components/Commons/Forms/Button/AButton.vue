@@ -8,10 +8,13 @@
       'button-medium': size ==='medium',
       'button-large': size ==='large',
       'bg-primary text-white': color === 'primary',
+      'bg-secondary': color === 'secondary'
     }"
     @click.stop.prevent="emits('click', $event)"
   >
-    {{ label }}
+    <span v-if="icon" class="material-icons fs-600">{{ icon }}</span>
+    <div v-if="icon && label" class="ml--6"></div>
+    <span v-if="label" class="flex-align-center">{{ label }}</span>
   </button>
 </template>
 <script lang="ts" setup>
@@ -19,8 +22,9 @@ import { withDefaults } from "vue";
 
 interface iButtonProps {
   color: Color;
-  label: Label;
+  label?: Label;
   size: Size;
+  icon?: string;
 }
 interface iButtonEmits {
   (event: "click", value: MouseEvent): void
