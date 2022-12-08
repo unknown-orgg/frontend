@@ -15,7 +15,7 @@ export class Maybe<T> {
   static prop<T>(object: { [k: string]: T }, key: string): Maybe<T> {
     return new Maybe(object[key]);
   }
-  then<F>(func: (value: T) => Maybe<F>): Maybe<F> {
+  map<F>(func: (value: T) => Maybe<F>): Maybe<F> {
     return this.value !== undefined ? 
       func(this.value) : 
       Maybe.nothing<F>()

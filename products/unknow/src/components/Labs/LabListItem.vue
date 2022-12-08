@@ -59,9 +59,10 @@ const capitalizerPhrase = (value: string) => {
     (value: string) => value.split(" ")
   )(value) */
   return new Maybe(value)
-    .then<string[]>((value: string) => Maybe.just<string[]>(value.split(" ")))
-    .then<string[]>((value: string[]) =>  Maybe.just<string[]>(value.map(upperCaseFirstLetter)))
-    .then<string>((value: string[]) => Maybe.just<string>(value.join(" ")))
+    .map<string[]>((value: string) => Maybe.just<string[]>(value.split(" ")))
+    .map<string[]>((value: string[]) =>  Maybe.just<string[]>(value.map(upperCaseFirstLetter)))
+    .map<string>((value: string[]) => Maybe.just<string>(value.join(" ")))
+    .value;
 }
 </script>
 <style lang="scss" scoped>
